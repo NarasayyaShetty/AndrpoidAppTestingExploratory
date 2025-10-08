@@ -32,10 +32,10 @@ public class BaseClass {
 		//UiAutomator2Options
 		
 		UiAutomator2Options options=new UiAutomator2Options();
-		options.setDeviceName("emulator-5554");
-		options.setUdid("emulator-5554");
+		//options.setDeviceName("emulator-5554");
+	//	options.setUdid("emulator-5554");
 		options.setDeviceName("Shetty");
-	//	options.setUdid("ea1ae449");
+		options.setUdid("ea1ae449");
 		options.setNoReset(true);
 		options.setChromedriverExecutable("C:\\Users\\User\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
 		options.setCapability("appium:ignoreHiddenApiPolicyError", true);//for physical devices

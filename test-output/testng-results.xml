@@ -1,75 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-03T09:24:24 IST" name="Default suite" finished-at="2025-10-03T09:24:38 IST" duration-ms="13467">
+  <suite started-at="2025-10-08T12:08:16 IST" name="Default suite" finished-at="2025-10-08T12:08:39 IST" duration-ms="23007">
     <groups>
     </groups>
-    <test started-at="2025-10-03T09:24:24 IST" name="Default test" finished-at="2025-10-03T09:24:38 IST" duration-ms="13467">
-      <class name="Tests.SonyLivTest">
-        <test-method is-config="true" signature="config()[pri:0, instance:Tests.SonyLivTest@6340e5f0]" started-at="2025-10-03T09:24:20 IST" name="config" finished-at="2025-10-03T09:24:24 IST" duration-ms="3894" status="PASS">
+    <test started-at="2025-10-08T12:08:16 IST" name="Default test" finished-at="2025-10-08T12:08:39 IST" duration-ms="23007">
+      <class name="Tests.HotstarTest">
+        <test-method is-config="true" signature="config()[pri:0, instance:Tests.HotstarTest@6340e5f0]" started-at="2025-10-08T12:08:12 IST" name="config" finished-at="2025-10-08T12:08:16 IST" duration-ms="4673" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- config -->
-        <test-method signature="test()[pri:0, instance:Tests.SonyLivTest@6340e5f0]" started-at="2025-10-03T09:24:24 IST" name="test" description="SonyLive test" finished-at="2025-10-03T09:24:29 IST" duration-ms="5366" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.FrameLayout[@content-desc='Profile'] (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.28'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\User\Downloads\chr..., appium:databaseEnabled: false, appium:desired: {automationName: UIAutomator2, chromedriverExecutable: C:\Users\User\Downloads\chr..., deviceName: Shetty, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 31, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x2560, appium:deviceUDID: emulator-5554, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2476, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: f76a2ac4-7e32-430d-b84b-ceb3ab70bf04]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //android.widget.FrameLayout[@content-desc='Profile'] (tried for 5 second(s) with 500 milliseconds interval)
-Build info: version: '4.36.0', revision: '6d115cfd87'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.28'
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {appium:automationName: UIAutomator2, appium:chromedriverExecutable: C:\Users\User\Downloads\chr..., appium:databaseEnabled: false, appium:desired: {automationName: UIAutomator2, chromedriverExecutable: C:\Users\User\Downloads\chr..., deviceName: Shetty, ignoreHiddenApiPolicyError: true, noReset: true, platformName: ANDROID, udid: emulator-5554}, appium:deviceApiLevel: 31, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 560, appium:deviceScreenSize: 1440x2560, appium:deviceUDID: emulator-5554, appium:ignoreHiddenApiPolicyError: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 3.5, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:udid: emulator-5554, appium:viewportRect: {height: 2476, left: 0, top: 84, width: 1440}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: f76a2ac4-7e32-430d-b84b-ceb3ab70bf04
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at Tests.SonyLivTest.test(SonyLivTest.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="test01()[pri:0, instance:Tests.HotstarTest@6340e5f0]" started-at="2025-10-08T12:08:16 IST" name="test01" description="Hotstar in app testing" finished-at="2025-10-08T12:08:29 IST" duration-ms="12203" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.SonyLivTest@6340e5f0]" started-at="2025-10-03T09:24:29 IST" name="tearDown" finished-at="2025-10-03T09:24:38 IST" duration-ms="8075" status="PASS">
+        </test-method> <!-- test01 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Tests.HotstarTest@6340e5f0]" started-at="2025-10-08T12:08:29 IST" name="tearDown" finished-at="2025-10-08T12:08:39 IST" duration-ms="10783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- Tests.SonyLivTest -->
+      </class> <!-- Tests.HotstarTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

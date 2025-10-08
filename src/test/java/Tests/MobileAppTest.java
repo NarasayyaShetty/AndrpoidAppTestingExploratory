@@ -48,7 +48,7 @@ public class MobileAppTest extends BaseClass{
 		status=pp.validateProductPageNavigation();
 		Assert.assertTrue(status,"Product page navigation is failed");
 		pp.addProductTocart("Air Jordan 1 Mid SE");
-		status=pp.addProductTocart("Air Jordan 9 Retro");
+		status=pp.addProductTocart("PG 3");
 		Assert.assertTrue(status,"Unagle to select the product");
 		status=pp.clickCartButton();
 		Assert.assertTrue(status,"Unable to click on cart button");
